@@ -2,7 +2,7 @@
  Easy One Process YOLOv7 Custom Dataset Training
 
 ## 1. Introduction
-Easy One Process YOLOv7 Custom Dataset Training is a simple and easy way to train your own custom dataset with YOLOv7. It is a one-click process that can be completed in 5 minutes. It is suitable for beginners who want to quickly train their own custom dataset.
+Easy One Process YOLOv7 Custom Dataset Training is a simple and easy way to train your own custom dataset with YOLOv7. It is a one-click process that can be completed in 1 minute. It is suitable for beginners who want to quickly train their own custom dataset.
 
 ## 2. Conda Environment
 The conda environment is as follows:

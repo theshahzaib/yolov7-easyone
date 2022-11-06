@@ -86,5 +86,21 @@ sh train.sh
     python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source data/coco/val2017 --save-txt --save-conf --save-crop
     ```
 
+# Acknowledgements
+This project is based on the following projects:
 
+<details><summary> <b>Expand</b> </summary>
+
+* [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+* [https://github.com/WongKinYiu/yolor](https://github.com/WongKinYiu/yolor)
+* [https://github.com/WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4)
+* [https://github.com/WongKinYiu/ScaledYOLOv4](https://github.com/WongKinYiu/ScaledYOLOv4)
+* [https://github.com/Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+* [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3)
+* [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+* [https://github.com/DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)
+* [https://github.com/JUGGHM/OREPA_CVPR2022](https://github.com/JUGGHM/OREPA_CVPR2022)
+* [https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose](https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose)
+
+</details>
 

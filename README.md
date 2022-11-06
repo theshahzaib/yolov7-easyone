@@ -88,7 +88,6 @@ sh train.sh
 
 # Acknowledgements
 This project is based on the following projects:
-
 <details><summary> <b>Expand</b> </summary>
 
 * [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
@@ -104,3 +103,4 @@ This project is based on the following projects:
 
 </details>
 
+Thank you for your support https://github.com/WongKinYiu/yolov7

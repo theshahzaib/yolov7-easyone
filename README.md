@@ -30,15 +30,17 @@ pip install -r requirements.txt
 
 ## 6. One Process Autoscripts Generator
 1. Update the parameters or variables in the "python one_process_yolov7.py" file.
-2. Run the following command in "[custom model name]" folder.  
+2. Update config file(s) in the "cfg/custom" folder.
+3. Run the following command in "[custom model name]" folder.  
     ```cmd
     python one_process_yolov7.py
     ```
-- Auto Split the dataset into 'Train' and 'Valid' folders.
-- Generate the custom "coco.yaml" file.
-- Generate the custom "train.sh" file.
+# One Process Autoscript
+## - Auto Split the dataset into 'Train' and 'Valid' folders.
+## - Generate the custom "coco.yaml" file with all autoset paths.
+## - Generate the custom "train.sh" file with all autoset paths.
+#
 
-3. Update config file(s) in the "cfg/custom" folder.
 
 ## 7. Training.
 ```cmd

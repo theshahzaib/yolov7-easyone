@@ -35,6 +35,7 @@ pip install -r requirements.txt
     ```cmd
     python one_process_yolov7.py
     ```
+#
 # One Process Autoscript
 ## - Auto Split the dataset into 'Train' and 'Valid' folders.
 ## - Generate the custom "coco.yaml" file with all autoset paths.

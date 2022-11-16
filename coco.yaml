@@ -1,4 +1,4 @@
-train: C:\Users\eBook\Desktop\lab\yolov7\model_nfpa/train/images
-val: C:\Users\eBook\Desktop\lab\yolov7\model_nfpa/valid/images
+train: C:\Users\eBook\Documents\GitHub\yolov7-easyone\model_nfpa/train/images
+val: C:\Users\eBook\Documents\GitHub\yolov7-easyone\model_nfpa/valid/images
 nc: 1
 names: ['nfpa']

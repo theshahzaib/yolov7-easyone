@@ -16,11 +16,11 @@ no_of_classes = len(classes)
 # Image Window Size
 window_size = [416,416]
 # GPUs i.e '0,1,2,3' for training 'cpu' if training on CPU
-gpu_count = 'cpu'
+gpu_count = '0'
 # Batch
 batch = 32
 # Epochs
-epochs = 3
+epochs = 100
 
 ##################################################
 try:
@@ -119,9 +119,9 @@ f.close()
 FILE_PATH_trainsh = '../train.sh'
 f = open(FILE_PATH_trainsh, 'w')
 # yolov7-tiny
-f.write('python train.py --img '+str(window_size[0])+' --batch '+str(batch)+' --epochs '+str(epochs)+' --data ./coco.yaml --cfg ./cfg/custom/yolov7-tiny.yaml --weights yolov7-tiny.pt --name '+dataset_folder_name+' --device '+gpu_count+'\n')
+f.write('# python train.py --img '+str(window_size[0])+' --batch '+str(batch)+' --epochs '+str(epochs)+' --data ./coco.yaml --cfg ./cfg/custom/yolov7-tiny.yaml --weights yolov7-tiny.pt --name '+dataset_folder_name+' --device '+gpu_count+'\n')
 # yolov7
-f.write('# python train.py --img '+str(window_size[0])+' --batch '+str(batch)+' --epochs '+str(epochs)+' --data ./coco.yaml --cfg ./cfg/custom/yolov7.yaml --weights yolov7.pt --name '+dataset_folder_name+' --device '+gpu_count+'\n')
+f.write('python train.py --img '+str(window_size[0])+' --batch '+str(batch)+' --epochs '+str(epochs)+' --data ./coco.yaml --cfg ./cfg/custom/yolov7.yaml --weights yolov7.pt --name '+dataset_folder_name+' --device '+gpu_count+'\n')
 # yolov7x
 f.write('# python train.py --img '+str(window_size[0])+' --batch '+str(batch)+' --epochs '+str(epochs)+' --data ./coco.yaml --cfg ./cfg/custom/yolov7x.yaml --weights yolov7x.pt --name '+dataset_folder_name+' --device '+gpu_count+'\n')
 # yolov7-d6
